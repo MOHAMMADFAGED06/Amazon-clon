@@ -6,18 +6,18 @@
 }
 /* Normal styles */
 body {
-    font-size: 16px;
+    font-size: 16rem;
   }
   
   /* Responsive styles for mobile devices */
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 600rem16rem) {
     body {
-      font-size: 14px;
+      font-size: 14rem16rem;
     }
     /* Add other styles for smaller screens */
   }
 .navbar{
-    height: 60px;
+    height: 60rem16rem;
     background-color: #0f1111;
     color: rgb(233, 234, 237);  
     display: flex;
@@ -26,33 +26,33 @@ body {
 }
 
 .nav-logo{
-    height: 50px;
-    width: 100px;
+    height: 50rem16rem;
+    width: 100rem16rem;
     
 }
 
 .logo{
     background-image:url("amazon_logo.png");
     background-size:cover;
-    height: 50px;
+    height: 50rem16rem;
     width: 80%;
 }
 .border{
-    border:1.5px solid transparent;
+    border:1.5rem16rem solid transparent;
 }
 .border:hover{
-    border: 1.5px solid white;
+    border: 1.5rem16rem solid white;
 }
 /* box 2 */
 .add-first{
     color: #ccc;
     font-size: 0.85rem;
-    margin-left: 15px;
+    margin-left: 15rem16rem;
     
 }
 .add-sec{
 font-size: 1rem;
-    margin-left: 3px;
+    margin-left: 3rem16rem;
 }
 .add-icon{
 display: flex;
@@ -63,17 +63,17 @@ align-items: center;
     display: flex;
     justify-content: space-evenly;
     /* background-color: rgb(221, 113, 196); */
-    width: 620px;
-    height: 40px;
-    border-radius: 4px;
+    width: 620rem16rem;
+    height: 40rem16rem;
+    border-radius: 4rem16rem;
    
 }
 .search-select{
     background-color: #f3f;
-width: 50px;
+width: 50rem16rem;
 text-align: center;
-border-top-left-radius: 4px;
-border-bottom-left-radius: 4px;
+border-top-left-radius: 4rem16rem;
+border-bottom-left-radius: 4rem16rem;
 border: none;
 }
 .search-input{
@@ -83,17 +83,17 @@ border: none;
 
 }
 .search-icon{
-    width: 45px;
+    width: 45rem16rem;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.3rem;
     background-color: rgb(245, 192, 35);
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4rem16rem;
+    border-bottom-right-radius: 4rem16rem;
 }
 .nav-search:hover{
-    border: 3px solid rgb(245, 192, 35);
+    border: 3rem16rem solid rgb(245, 192, 35);
 
 }
 
@@ -108,7 +108,7 @@ span{
 /* Box5 */
 
 .nav-card i {
-font-size: 35px;
+font-size: 35rem16rem;
 
 }
 .nav-card border{
@@ -117,7 +117,7 @@ font-size: 35px;
 }
 /* panel */
 .panel{
-    height: 40px;
+    height: 40rem16rem;
     color: white;
 background-color: #222f3d;
 display: flex;
@@ -126,7 +126,7 @@ justify-content: space-evenly;
 }
 .panel-ops p {
     display: inline;
-    margin: 15px;
+    margin: 15rem16rem;
 }
 .panel-ops{
     width: 75%;
@@ -140,7 +140,7 @@ justify-content: space-evenly;
 .hero-section{
     background-image: url("hero_image.jpg");
     background-size: cover;
-    height: 400px;
+    height: 400rem16rem;
     display: flex;
 justify-content: center;
 align-items: flex-end;
@@ -148,13 +148,13 @@ align-items: flex-end;
 .hero-msg{
     background-color: white;
     color:black ;
-    height: 40px;
+    height: 40rem16rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-size: 0.85rem;
     width: 80%;
-    margin-bottom: 25px;
+    margin-bottom: 25rem16rem;
 }
 /* shop secyion */
 .shop-section{
@@ -166,30 +166,30 @@ align-items: flex-end;
 }
 .box{
     /* border: 2px solid black; */
-    height: 350px;
+    height: 350rem16rem;
     width: 24%;
     background-color: white;
-    padding: 20px 0px 15px;
-    margin: 5px;
+    padding: 20px 0px 15rem16rem;
+    margin: 5rem16rem;
 }
 .Box-image1{
     background-image: url("box1_image.jpg") ;
-    height:250px;
+    height:250rem16rem;
     margin-top: 1rem ;
     margin-bottom: 1rem ;
     background-size: cover;
     
 }
 .box-contant{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 10rem16rem;
+    margin-right: 10rem16rem;
 }
 .box-contant p{
     color: blue;
 }
 .Box-image2{
     background-image: url("box2_image.jpg") ;
-    height:250px;
+    height:250rem16rem;
     margin-top: 1rem ;
     margin-bottom: 1rem ;
     background-size: cover;
@@ -197,7 +197,7 @@ align-items: flex-end;
 }
 .Box-image3{
     background-image: url("box3_image.jpg") ;
-    height:250px;
+    height:250rem16rem;
     margin-top: 1rem ;
     margin-bottom: 1rem ;
     background-size: cover;
@@ -205,7 +205,7 @@ align-items: flex-end;
 }
 .Box-image4{
     background-image: url("box4_image.jpg") ;
-    height:250px;
+    height:250rem16rem;
     margin-top: 1rem ;
     margin-bottom: 1rem ;
     background-size: cover;
@@ -213,7 +213,7 @@ align-items: flex-end;
 }
 .Box-image5{
     background-image: url("box5_image.jpg") ;
-    height:250px;
+    height:250rem16rem;
     margin-top: 1rem ;
     margin-bottom: 1rem ;
     background-size: cover;
@@ -221,7 +221,7 @@ align-items: flex-end;
 }
 .Box-image6{
     background-image: url("box6_image.jpg") ;
-    height:250px;
+    height:250rem16rem;
     margin-top: 1rem ;
     margin-bottom: 1rem ;
     background-size: cover;
@@ -229,7 +229,7 @@ align-items: flex-end;
 }
 .Box-image7{
     background-image: url("box7_image.jpg") ;
-    height:250px;
+    height:250rem16rem;
     margin-top: 1rem ;
     margin-bottom: 1rem ;
     background-size: cover;
@@ -237,7 +237,7 @@ align-items: flex-end;
 }
 .Box-image8{
     background-image: url("box8_image.jpg") ;
-    height:250px;
+    height:250rem16rem;
     margin-top: 1rem ;
     margin-bottom: 1rem ;
     background-size: cover;
@@ -245,12 +245,12 @@ align-items: flex-end;
 }
 /* footer */
 .footer{
-    margin-top: 15px;
+    margin-top: 15rem16rem;
 }
 .foot-panel1{
     background-color: #37475a;
     color: white;
-    height: 50px;
+    height: 50rem16rem;
 
     display: flex;
 justify-content: center;
@@ -260,7 +260,7 @@ font-size: 0.85;
 .foot-panel2{
     background-color: #222f3d;
     color: white;
-    height: 300px;
+    height: 300rem16rem;
     display: flex;
     justify-content: space-evenly;
 
@@ -269,16 +269,16 @@ font-size: 0.85;
 ul a{
     display: block;
     font-size: .85rem;
-    margin-top: 10px;
+    margin-top: 10rem16rem;
     color: #dddddd;
     }
 ul p{
-    margin-top: 12px;
+    margin-top: 12rem16rem;
 }
 .foot-panel3{
     background-color: #222f3d;
-    border-top: 2px solid white;
-    height: 70px;
+    border-top: 2rem16rem solid white;
+    height: 70rem16rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -287,8 +287,8 @@ ul p{
 .logo{
     background-image:url("amazon_logo.png");
     background-size:cover;
-    height: 50px;
-    width: 100px;
+    height: 5rem16rem;
+    width: 100rem16rem;
 
 }
 .add-icon{
