@@ -46,12 +46,12 @@ body {
 /* box 2 */
 .add-first{
     color: #ccc;
-    font-size: 0.85px;
+    font-size: 0.85rem;
     margin-left: 15px;
     
 }
 .add-sec{
-font-size: 1px;
+font-size: 1rem;
     margin-left: 3px;
 }
 .add-icon{
@@ -78,7 +78,7 @@ border: none;
 }
 .search-input{
     width: 100%;
-    font-size: 1px;
+    font-size: 1rem;
     border: none;
 
 }
@@ -87,13 +87,13 @@ border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3px;
+    font-size: 1.3rem;
     background-color: rgb(245, 192, 35);
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
 .nav-search:hover{
-    border: 3pxsolid rgb(245, 192, 35);
+    border: 3px solid rgb(245, 192, 35);
 
 }
 
@@ -175,14 +175,14 @@ align-items: flex-end;
 .Box-image1{
     background-image: url("box1_image.jpg") ;
     height:250px;
-    margin-top: 1px ;
-    margin-bottom: 1px ;
+    margin-top: 1rem ;
+    margin-bottom: 1rem ;
     background-size: cover;
     
 }
 .box-contant{
     margin-left: 10px;
-    margin-right: 1;
+    margin-right: 10px;
 }
 .box-contant p{
     color: blue;
@@ -269,7 +269,7 @@ font-size: 0.85;
 ul a{
     display: block;
     font-size: .85rem;
-    margin-top: 10rem;
+    margin-top: 10px;
     color: #dddddd;
     }
 ul p{
@@ -292,7 +292,7 @@ ul p{
 
 }
 .add-icon{
-    font-size: 3px;
+    font-size: 3rem;
     
 
 }
