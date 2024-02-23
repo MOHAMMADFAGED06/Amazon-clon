@@ -10,8 +10,8 @@
 
 
     body {
-        background-color: #ccc;
-    }
+        background-color: #ccc;}
+        .shop-section{flex-direction: column;}
 }
 
 /* Normal styles */
