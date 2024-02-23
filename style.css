@@ -6,21 +6,15 @@
     box-sizing: border-box;
 }
 
-@media only screen and (min-width:1080px) {
-
-
-    body {
-        background-color: #ccc;}
-        /* .shop-section{flex-direction: column;} */
-} 
 
 /* Normal styles */
 body {
     font-size: 16px;
+  
 }
 
 /* Responsive styles for mobile devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     body {
         font-size: 14px;
     }
