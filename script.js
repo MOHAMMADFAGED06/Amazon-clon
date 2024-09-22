@@ -1,1 +1,1 @@
-alert ("This Website is not responsive so switch to destop mode ")
+// alert ("This Website is not responsive so switch to destop mode ")
